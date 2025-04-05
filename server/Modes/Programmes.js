@@ -34,8 +34,7 @@ const programmeSchema = new mongoose.Schema({
 
   userEnrolled: [
     {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      type:String,
     },
   ],
 });

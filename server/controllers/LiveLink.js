@@ -103,12 +103,16 @@ exports.validateMember = async(req,res) =>{
         //     });
         // }
 
-        const programData = await Program.findById(programId);
+        let programData = await Program.findById(programId);
         if(!programData){
             return res.json({
                 success:false,
                 message:"No program found",
             });
+        }
+
+        if(!programData.userEnrolled.includes(UserName)){
+            programData = await Program.findByIdAndUpdate({_id:programId},{$push:{userEnrolled:UserName}},{new:true});
         }
 
         if(programData.liveLinkPassword !== password){
