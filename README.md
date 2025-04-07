@@ -64,7 +64,7 @@ cd ..
 cd client
 npm install
 ```
-🔧 run frontend and beckend cuncurently
+🔧 run frontend and backend cuncurently
 check you should be in RTCCE then run cmd
 ```bash
 cd ..
