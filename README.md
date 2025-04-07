@@ -40,7 +40,7 @@ Built with **React.js**, **Node.js**, **Express**, **Socket.io**, **MongoDB**, a
 ### 🚀 Clone the Repository
 
 ```bash
-git clone https://github.com/Sachinkumar8439/RTCCE.git
+https://github.com/Lovekush-1509/RTCCE.git
 cd RTCCE
 ```
 
@@ -55,7 +55,7 @@ Create a .env file in server root dir and fill with ..
 MONGO_URI=your_mongodb_connection_string
 JUDGE_API_URL=https://judge0-ce.p.rapidapi.com/submissions
 JUDGE_API_KEY=your_judge0_api_key
-PORT=5000
+PORT=4000
 ```
 
 🔧 Setup frontend (client)
