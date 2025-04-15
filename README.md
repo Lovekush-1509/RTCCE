@@ -20,7 +20,7 @@ A powerful, feature-rich real-time code editor designed for developers who love 
 
 ## 🚀 Screen shorts 
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr);">
     <img src="https://github.com/user-attachments/assets/c7f3ee68-e5b6-421f-8408-5caded759d24" alt="Image 1" style="width: 33%; height: auto; border-radius: 8px;">
     <img src="https://github.com/user-attachments/assets/2ff081b1-a2ef-4e9c-bd72-a2f529dea7c0" alt="Image 2" style="width: 33%; height: auto; border-radius: 8px;">
     <img src="https://github.com/user-attachments/assets/b9a0d11e-90e7-4bc7-ad31-ec05c96753f1" alt="Image 3" style="width: 33%; height: auto; border-radius: 8px;">
