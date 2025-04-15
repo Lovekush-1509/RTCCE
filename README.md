@@ -21,12 +21,12 @@ A powerful, feature-rich real-time code editor designed for developers who love 
 ## 🚀 Screen shorts 
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
-    <img src="https://github.com/user-attachments/assets/c7f3ee68-e5b6-421f-8408-5caded759d24" alt="Image 1" style="width: 33%; height: auto; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/2ff081b1-a2ef-4e9c-bd72-a2f529dea7c0" alt="Image 2" style="width: 33%; height: auto; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/b9a0d11e-90e7-4bc7-ad31-ec05c96753f1" alt="Image 3" style="width: 33%; height: auto; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/6293ebd6-8966-4e0c-9181-8e7041cb9dba" alt="Image 4" style="width: 33%; height: auto; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/9bf5fa3a-1d2f-43dc-b567-49a39fd119b7" alt="Image 5" style="width: 33%; height: auto; border-radius: 8px;">
-    <img src="https://github.com/user-attachments/assets/294dde9a-67a5-4f12-899c-9c1b3f8713e1" alt="Image 6" style="width: 33%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/c7f3ee68-e5b6-421f-8408-5caded759d24" alt="Image 1" style="width: 30%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/2ff081b1-a2ef-4e9c-bd72-a2f529dea7c0" alt="Image 2" style="width: 30%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/b9a0d11e-90e7-4bc7-ad31-ec05c96753f1" alt="Image 3" style="width: 30%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/6293ebd6-8966-4e0c-9181-8e7041cb9dba" alt="Image 4" style="width: 30%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/9bf5fa3a-1d2f-43dc-b567-49a39fd119b7" alt="Image 5" style="width: 30%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/user-attachments/assets/294dde9a-67a5-4f12-899c-9c1b3f8713e1" alt="Image 6" style="width: 30%; height: auto; border-radius: 8px;">
     <img src="https://github.com/user-attachments/assets/baf432e9-4644-48c1-b68e-0c7ea2692af8" alt="Image 7" style="width: 33%; height: auto; border-radius: 8px;">
     <img src="https://github.com/user-attachments/assets/b3837c90-9ade-4604-af54-cd7ff1a95dc0" alt="Image 8" style="width: 33%; height: auto; border-radius: 8px;">
     <img src="https://github.com/user-attachments/assets/70392560-f526-46fc-8c87-bfce053e9fc1" alt="Image 9" style="width: 33%; height: auto; border-radius: 8px;">
