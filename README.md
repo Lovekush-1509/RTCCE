@@ -1,4 +1,6 @@
-# RT_COLLABORATIVE_CODE_EDITOR
+# RTCCE 
+## Real Time Collaborative Code Editor
+
 A powerful, feature-rich real-time code editor designed for developers who love collaboration. This project combines the best tools and frameworks to deliver an intuitive, VS Code-like experience directly in the browser.  
 
 ---
