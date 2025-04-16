@@ -11,7 +11,7 @@ A powerful, feature-rich real-time code editor designed for developers who love 
 
 **Frontend**: *Sachin Kumar*  [LinkedIn](https://www.linkedin.com/in/sachin-kumar)  [Portfolio](https://sachin-kumar-portfolio.com)  [GitHub](https://github.com/sachin-kumar) 
 
-**Backend**: *Lovekush*  [LinkedIn](https://www.linkedin.com/in/lovekush-84514b26a/) [Portfolio](https://portfolio-sigma-two-37.vercel.app/)  [GitHub](https://github.com/Lovekush-1509) 
+**Backend**: *Lovekush*  [LinkedIn](https://www.linkedin.com/in/lovekush-84514b26a/) [Portfolio](https://portfolio-sigma-two-37.vercel.app/)
 
 ---
 
