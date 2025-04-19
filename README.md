@@ -9,7 +9,7 @@ A powerful, feature-rich real-time code editor designed for developers who love 
 
 ## 🧑‍💻 Developers  
 
-**Frontend**: *Sachin Kumar*  [LinkedIn](https://www.linkedin.com/in/sachin-kumar-614372259/)  [Portfolio](https://portfolio-sachin-kumar-five.vercel.app/)  [GitHub](https://github.com/Sachinkumar8439) 
+**Frontend**: *Sachin Kumar*  [LinkedIn](https://www.linkedin.com/in/sachin-kumar-614372259/)  [Portfolio](https://sachin-kumar-portfolio-dev.vercel.app/)  [GitHub](https://github.com/Sachinkumar8439) 
 
 **Backend**: *Lovekush*  [LinkedIn](https://www.linkedin.com/in/lovekush-84514b26a/) [Portfolio](https://portfolio-sigma-two-37.vercel.app/)
 
