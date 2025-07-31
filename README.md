@@ -1,24 +1,26 @@
-# RT_Collaborative_Code_Editor 
-## Real Time Collaborative Code Editor
+# 🚀 RT_Collaborative_Code_Editor
 
-A powerful, feature-rich real-time code editor designed for developers who love collaboration. This project combines the best tools and frameworks to deliver an intuitive, VS Code-like experience directly in the browser.  
+## 🌐 Real-Time Collaborative Code Editor
+
+A powerful, feature-rich **real-time code editor** designed for developers who love collaboration. Experience a VS Code–like interface, real-time sync, and powerful execution — all within your browser.
+
+---
+
+## Live Project 👉 [rtcce-client.vercel.app](https://rtcce-client.vercel.app/)
+
+## 👨‍💻 Developers
+
+| Role     | Name            | Links |
+|----------|-----------------|--------|
+| **Frontend** | Sachin Kumar     | [LinkedIn](https://www.linkedin.com/in/sachin-kumar-614372259/) • [Portfolio](https://sachin-kumar-portfolio-dev.vercel.app/) |
+| **Backend**  | Lovekush Singh   | [LinkedIn](https://www.linkedin.com/in/lovekush-singh) • [GitHub](https://github.com/Lovekush-1509) |
 
 ---
 
 
 
-## 🧑‍💻 Developers  
 
-**Frontend**: *Sachin Kumar*  [LinkedIn](https://www.linkedin.com/in/sachin-kumar-614372259/)  [Portfolio](https://sachin-kumar-portfolio-dev.vercel.app/)
-
-**Backend**: *Lovekush Singh*  [LinkedIn](https://www.linkedin.com/in/lovekush-singh)  [GitHub](https://github.com/Lovekush-1509)
-
----
-
-
-
-
-## 🚀 Screen shorts 
+## 🚀 Screenshorts 
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap:2px">
     <img src="https://github.com/user-attachments/assets/c7f3ee68-e5b6-421f-8408-5caded759d24" alt="Image 1" style="width: 30%; height: auto; border-radius: 8px;">
@@ -61,181 +63,89 @@ A powerful, feature-rich real-time code editor designed for developers who love 
 
 
 
-## 🚀 Features  
+## 🚀 Features
 
-### 🔐 **Authentication & Security**  
-- Secure authentication with JWT-based session handling.  
-- Auto-login by entering the correct 6-digit password.  
-- Copy file passwords securely with a single click.  
+### 🔐 Authentication & Security
+- JWT-based session handling
+- Auto-login via secure 6-digit file passwords
+- Copy file passwords and links with a single click
 
-### 📝 **File Management**  
-- Create files with language-specific extensions and logos.  
-- Switch between files seamlessly.  
-- Copy file links for easy sharing.  
-- Built-in terminal for file creation, switching, and running.  
+### 📝 File Management
+- Create language-specific files with icons
+- Seamless file switching & sharing
+- In-app terminal for file commands
 
-### 💻 **Code Execution**  
-- Execute code in real-time using the **Judge0 API**.  
-- Direct terminal commands to run and test your code.  
+### 💻 Code Execution
+- Real-time code execution using [Judge0 API](https://judge0.com)
+- Run and test code directly from the terminal
 
-### 🌟 **Monaco Editor Integration**  
-- Full VS Code-like features including IntelliSense, syntax highlighting, and more.  
-- Real-time code sharing for seamless collaboration.  
-- Theme switching to suit your preference.  
-- Auto-saving of code to prevent data loss.  
+### 🧠 Monaco Editor Integration
+- IntelliSense, syntax highlighting, and themes
+- Real-time editing across clients
+- Auto-save functionality
 
-### 🛠️ **Collaboration & Rooms**  
-- Join rooms with a simple switch for collaborative editing.  
-- Share and work on code with others in real time.  
+### 🤝 Collaboration
+- Join coding rooms and collaborate in real time
+- Easy room switching and link sharing
 
 ---
 
-## 🏗️ Tech Stack  
+## ⚙️ Tech Stack
 
-### **Frontend**  
-- **React** with `@monaco-editor/react` for VS Code-like editing experience.  
-- **react-draggable** and **react-resizable** for interactive UI components.  
-- **react-router-dom** for seamless navigation.  
-- **react-spinners** for elegant loading indicators.  
-- **socket.io-client** for real-time communication.  
-- **sweetalert2** for user-friendly modals and alerts.  
+### 🖥 Frontend
+- `React.js` with `@monaco-editor/react`
+- `react-router-dom`, `react-draggable`, `react-resizable`
+- `socket.io-client`, `sweetalert2`, `react-spinners`
 
-### **Backend**  
-- **Node.js** with **Express** for robust API handling.  
-- **MongoDB** and **Mongoose** for database management.  
-- **jsonwebtoken (JWT)** for secure session handling.  
-- **Socket.io** for real-time data sharing.  
-- **dotenv** for environment variable management.  
-- **axios** for API communication.  
+### 🗄 Backend
+- `Node.js` + `Express.js`
+- `MongoDB` + `Mongoose`
+- `Socket.io` for real-time sync
+- `JWT` for authentication
+- `dotenv`, `axios`
 
 ---
 
-# Terminal Commands: sl Command Prefix
+## 💻 Terminal Commands (for file system & navigation)
 
-This document outlines the custom terminal commands prefixed with `sl` and their functionalities. These commands are designed to streamline file management and execution tasks.
+Use the following common commands in the terminal inside the web app:
 
----
+| Command | Description |
+|--------|-------------|
+| `cd filename` | Switch to a file |
+| `run` | Run the current file |
+| `copy link filename` | Copy file link |
+| `copy password filename` | Copy file password |
+| `create filename` | Create a new file |
+| `clear` | Clear the terminal |
 
-## Commands Overview
-
-### 1. `sl goto <filename>`
-Switch to the specified file by the terminal.
-
-**Usage:**
-```bash
-sl goto index.js
-```
-
----
-
-### 2. `sl run`
-Run the code of current file.
-
-**Usage:**
-```bash
-sl run
-```
+🧩 _No command prefix is needed; these work directly in the app’s custom terminal._
 
 ---
 
-### 3. `sl copy link <filename>`
-Copy the link associated with the specified file to the clipboard.
+## 📦 Installation & Setup (Windows)
 
-**Usage:**
-```bash
-sl copy link index.js
-```
+```cmd
+:: Clone the repository
+git clone https://github.com/Lovekush-1509/RTCCE.git
 
----
+:: Navigate into the project directory
+cd RTCCE
 
-### 4. `sl copy password <filename>`
-Copy the password associated with the specified file to the clipboard.
+:: Install root dependencies (if needed)
+npm install
 
-**Usage:**
-```bash
-sl copy password index.js
-```
+:: Install frontend dependencies
+cd client
+npm install
 
----
+:: Install backend dependencies
+cd ..\server
+npm install
 
-### 5. `sl create <filename>`
-Create a new file with the specified name.
-
-**Usage:**
-```bash
-sl create newfile.cpp
-```
-### 6. `clear`
-Clear the terminal.
-
-**Usage:**
-```bash
-clear
-```
-
----
-
-## Additional Notes
-
-- These commands are prefixed with `sl` to prevent conflicts with other terminal commands.
-- Ensure you have appropriate permissions for file creation and access before using these commands.
-- Clipboard-related commands (`sl copy link` and `sl copy password`) may require a clipboard utility installed on your system.
-
-## Example Workflow
-1. Create a file:
-   ```bash
-   sl create project_notes.java
-   ```
-2. Switch to the file:
-   ```bash
-   sl goto project_notes.java
-   ```
-3. Copy the file link to the clipboard:
-   ```bash
-   sl copy link project_notes.java
-   ```
-4. Run the file:
-   ```bash
-   sl run
-   ```
-
----
-
-Enjoy a streamlined terminal experience with these commands!
-
-
-## 📦 Installation  
-
-### Prerequisites  
-- Node.js and npm installed on your machine.  
-
-### Setup  
-1. Clone the repository:  
-   ```bash  
-   https://github.com/Lovekush-1509/RTCCE.git
-   ```
-2. goto project folder directory:
-   ```
-   cd RT_COLLABORATIVE_CODE_EDITOR
-   ```
-3. Go to the client directory and install dependencies:
-   ```
-   cd client
-   npm install
-   ```
-4. Go to the server directory and install dependencies
-   ```
-   cd ..
-   cd server
-   npm install
-   ```
-5. Go to the root repository directory and install dependencies
-   ```
-   cd ..
-   npm install
-   ```
-6. Run the application
-   ```
+:: Go back to root folder and run full app (client + server)
+cd ..
+npm run dev
    npm run dev
 *Note: If there is any problem in running the server and client, start the client and server individually.*
 
