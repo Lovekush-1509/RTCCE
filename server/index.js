@@ -26,7 +26,7 @@ const socketio = require("socket.io");
 const server = require("http").Server(app);
 const io = socketio(server, {
   cors: {
-    origin: FRONTEND_URL || "https://rtcce-f.onrender.com", 
+    origin: FRONTEND_URL, 
     methods: ["GET", "POST"],
   },
 });
