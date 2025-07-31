@@ -10,7 +10,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 // CORS options to allow requests from frontend running on port 5500
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://rtcce-f.onrender.com"
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://rtcce-client.vercel.app"
 
 const corsOptions = {
   origin: FRONTEND_URL ,
