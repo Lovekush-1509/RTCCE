@@ -10,7 +10,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 // CORS options to allow requests from frontend running on port 5500
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000"
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://rtcce-f.onrender.com"
 
 const corsOptions = {
   origin: FRONTEND_URL ,
@@ -26,7 +26,7 @@ const socketio = require("socket.io");
 const server = require("http").Server(app);
 const io = socketio(server, {
   cors: {
-    origin: FRONTEND_URL || "http://localhost:3000", 
+    origin: FRONTEND_URL || "https://rtcce-f.onrender.com", 
     methods: ["GET", "POST"],
   },
 });
