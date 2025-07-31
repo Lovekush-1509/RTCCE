@@ -1,6 +1,6 @@
 import apiRequest from "../API/api";
 
-const BASE_URL =  `${process.env.REACT_APP_BACKEND_URL || "https://rtcce-cxnq.onrender.com"}rtcce/version-1.0`;
+const BASE_URL =  `${process.env.REACT_APP_BACKEND_URL || "https://rtcce-cxnq.onrender.com"}/rtcce/version-1.0`;
 
 const saveProgram = async (
   route,
