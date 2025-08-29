@@ -212,7 +212,7 @@ Enjoy a streamlined terminal experience with these commands!
 ### Setup  
 1. Clone the repository:  
    ```bash  
-   https://github.com/Lovekush-1509/RTCCE.git
+   git clone https://github.com/Lovekush-1509/RTCCE.git
    ```
 2. goto project folder directory:
    ```
