@@ -24,8 +24,8 @@ const Footer = () => {
           <h4>Contact</h4>
           <ul>
             <li>Email: RTCCE@GMAIL.COM</li>
-            <li>Phone: +91 790 2139 430</li>
-            <li>Address: pani ki tanki mathura</li>
+            <li>Phone: +91 8282002614</li>
+            <li>Address: New Delhi</li>
           </ul>
         </div>
       </div>
@@ -35,3 +35,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
