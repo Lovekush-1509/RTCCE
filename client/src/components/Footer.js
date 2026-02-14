@@ -24,7 +24,7 @@ const Footer = () => {
           <h4>Contact</h4>
           <ul>
             <li>Email: RTCCE@GMAIL.COM</li>
-            <li>Phone: +91 8282002614</li>
+            <li>Phone: +91 8287002614</li>
             <li>Address: New Delhi</li>
           </ul>
         </div>
@@ -35,4 +35,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
