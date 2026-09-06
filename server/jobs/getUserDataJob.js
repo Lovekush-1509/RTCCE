@@ -1,5 +1,5 @@
 const cron = require("node-cron");
-const User = require("../modes/User");
+const User = require("../modes/user");
 
 const startGetFilesJob = () => {
 
