@@ -5,6 +5,7 @@ const app = express();
 const Routes = require("./Routes/routes");
 app.use(express.json());
 const cors = require("cors");
+const startGetFilesJob = require("./jobs/getUserDataJob")
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 app.use(express.json());
@@ -62,5 +63,7 @@ const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
   console.log("server is running on port ",PORT);
 });
+
+startGetFilesJob();
 
 // http://localhost:3000/rtcce/version-1.0/output
