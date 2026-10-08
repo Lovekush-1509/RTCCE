@@ -83,7 +83,7 @@ export const handleGenerateCode = async (prompt, content, setcontent) => {
   if (!prompt.trim()) return;
 
 try {
-  const model = genAI.getGenerativeModel({ model: "gemini-3.8-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const stream = await model.generateContentStream({
     contents: [
